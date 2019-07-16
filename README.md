@@ -6,6 +6,7 @@
 
 ## Solution & Compilation
 - **Language:**  Swift 5
+- **Compiler:**  Xcode 10.2
 - **Deployment Target:**  iOS 11+
 - **Device Target:**  Universal  ( iPhone + iPad )
 - **Unit Test Coverage:**  78.2 %
