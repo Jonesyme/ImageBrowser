@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bgBlackCenter" translatesAutoresizingMaskIntoConstraints="NO" id="fjM-pe-W0L">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Michael Jones" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="chE-QJ-c0P">
+                                <rect key="frame" x="142" y="289.5" width="130" height="25.5"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" red="0.46438772371210046" green="0.730844073326674" blue="0.92859692258883253" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="shadowOffset" width="1" height="2"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iOS Code Challenge" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F5z-xn-fcG">
+                                <rect key="frame" x="102.5" y="355" width="209.5" height="25"/>
+                                <fontDescription key="fontDescription" name="Symbol" family="Symbol" pointSize="23"/>
+                                <color key="textColor" red="0.46438772371210046" green="0.730844073326674" blue="0.92859692258883253" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="shadowOffset" width="1" height="2"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NewsCorp" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cmA-vV-31A">
+                                <rect key="frame" x="159" y="415" width="96" height="25.5"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" red="0.46438772371210046" green="0.730844073326674" blue="0.92859692258883253" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="shadowOffset" width="1" height="2"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="July 15, 2019" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mD7-JB-ThI">
+                                <rect key="frame" x="153" y="719" width="108.5" height="23"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="shadowOffset" width="1" height="2"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="fjM-pe-W0L" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="Az7-EI-DMh"/>
+                            <constraint firstItem="mD7-JB-ThI" firstAttribute="centerX" secondItem="NeY-Kp-B9r" secondAttribute="centerX" id="GJ0-GK-IyS"/>
+                            <constraint firstItem="NeY-Kp-B9r" firstAttribute="trailing" secondItem="fjM-pe-W0L" secondAttribute="trailing" id="L9n-Hz-gfM"/>
+                            <constraint firstItem="cmA-vV-31A" firstAttribute="top" secondItem="F5z-xn-fcG" secondAttribute="bottom" constant="35" id="PuE-gL-sr2"/>
+                            <constraint firstItem="fjM-pe-W0L" firstAttribute="leading" secondItem="NeY-Kp-B9r" secondAttribute="leading" id="S9G-1n-u9R"/>
+                            <constraint firstItem="F5z-xn-fcG" firstAttribute="centerX" secondItem="NeY-Kp-B9r" secondAttribute="centerX" id="XEM-bB-R5u"/>
+                            <constraint firstItem="cmA-vV-31A" firstAttribute="centerX" secondItem="NeY-Kp-B9r" secondAttribute="centerX" id="fpx-yb-P4o"/>
+                            <constraint firstItem="chE-QJ-c0P" firstAttribute="centerX" secondItem="NeY-Kp-B9r" secondAttribute="centerX" id="hNw-uk-Soz"/>
+                            <constraint firstAttribute="bottom" secondItem="fjM-pe-W0L" secondAttribute="bottom" id="iXK-2V-CVk"/>
+                            <constraint firstItem="NeY-Kp-B9r" firstAttribute="bottom" secondItem="mD7-JB-ThI" secondAttribute="bottom" constant="120" id="qX7-44-eFo"/>
+                            <constraint firstItem="F5z-xn-fcG" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" multiplier="0.82" id="rSp-hh-TiC"/>
+                            <constraint firstItem="F5z-xn-fcG" firstAttribute="top" secondItem="chE-QJ-c0P" secondAttribute="bottom" constant="40" id="uIU-K1-veq"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="NeY-Kp-B9r"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bgBlackCenter" width="600" height="1024"/>
+    </resources>
+</document>
