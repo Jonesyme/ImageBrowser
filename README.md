@@ -1,6 +1,6 @@
 # ImageBrowser
 - **Description:**  Remotely fetch/browse images via a CollectionView
-- **Purpose:**  Company Code Challenge
+- **Purpose:**  Code Challenge
 - **Author:**  Michael T. Jones
 - **Date:**  July 15, 2019
 
